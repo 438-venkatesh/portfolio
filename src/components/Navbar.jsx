@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
+import {venky} from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -34,20 +35,21 @@ const Navbar = () => {
       }`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
-        <Link
-          to='/'
-          className='flex items-center gap-2'
-          onClick={() => {
-            setActive("");
-            window.scrollTo(0, 0);
-          }}
-        >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Adrian &nbsp;
-            <span className='sm:block hidden'> | JavaScript Mastery</span>
-          </p>
-        </Link>
+      <Link
+    to='/'
+    className='flex items-center gap-2'
+    onClick={() => {
+      setActive("");
+      window.scrollTo(0, 0);
+    }}
+  >
+    {/* Replace logo with your image path */}
+    <img src={venky} alt='Venkatesh' className='w-9 h-9 object-contain' />
+    <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+      Venkatesh &nbsp;
+      <span className='sm:block hidden'> | Dev Love Per Portfolio</span>
+    </p>
+  </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (

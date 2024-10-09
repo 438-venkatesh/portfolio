@@ -20,15 +20,53 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import rn from "./tech/rn.png";
+import wd from "./tech/wd.png";
+import post from "./tech/post.png";
+import dj from "./tech/dj.png";
+import python from "./tech/python.jpeg";
+import devops from "./tech/devops.jpeg";
+import native from "./tech/native.png";
+import cs from "./tech/cs.jpeg";
+
+
+
+
+
+import venky from "./venky.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import wd1 from  "./company/wd1.png";
+import sih from  "./company/sih.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import swynix from  "./company/swynix.jpeg";
+import wowexp from  "./company/wowexp.jpeg";
+import sep from  "./company/sep.jpeg";
+
+import ancura from  "./company/ancura.jpeg";
+import artflix from  "./company/artflix.png";
+import traffic from "./traffic.png";
+import whats from "./whats.png";
+
+import chat from "./chat.png";
+import tomato from "./tomato.png";
+import webrtc from "./webrtc.png";
+import phone from "./phone.png";
+
+
+
+
+
+
+
+
+
+
 
 export {
   logo,
@@ -59,4 +97,27 @@ export {
   carrent,
   jobit,
   tripguide,
+  wd,
+  wd1,
+  rn,
+  sih,
+  swynix,
+  wowexp,
+  sep,
+  ancura,
+  artflix,
+  python,
+  dj,
+  post,
+  cs,
+  devops,
+  native,
+  venky,
+  traffic,
+  whats,
+  chat,
+  tomato,
+  webrtc,
+  phone,
+
 };
