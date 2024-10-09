@@ -6,8 +6,11 @@
   "scripts": {
     "dev": "vite",
    "scripts": {
-  "build": "npm install --legacy-peer-deps && vite build",
+  "build": " vite build",
   "deploy": "gh-pages -d dist"
+      "homepage": "https://438-venkatesh.github.io/portfolio",
+"predeploy": "npm run build",
+
 }
 
     "preview": "vite preview"
