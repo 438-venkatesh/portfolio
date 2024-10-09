@@ -5,7 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+   "scripts": {
+  "build": "npm install --legacy-peer-deps && vite build",
+  "deploy": "gh-pages -d dist"
+}
+
     "preview": "vite preview"
   },
   "dependencies": {
